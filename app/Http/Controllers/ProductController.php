@@ -7,7 +7,7 @@ use App\Services\ProductService;
 
 class ProductController extends Controller
 {
-    private const PER_PAGE = 10;
+    private const int PER_PAGE = 10;
 
     public function __construct(protected readonly ProductService $productService)
     {}
